@@ -3,7 +3,12 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  zoom: 0.8; /* Old IE only */
 
+
+ 
+}
 
 .cursive {
   font-family: "Cedarville Cursive", cursive;
